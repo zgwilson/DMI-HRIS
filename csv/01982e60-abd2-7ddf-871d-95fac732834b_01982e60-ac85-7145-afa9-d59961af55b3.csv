@@ -1,0 +1,25 @@
+EmployeeNumber,EmployeeID,FirstName,LastName,DisplayName,Email,JobTitle,Department,ManagerID,Location,StartDate,Status,Shift,Remote,LOA
+E001,E001,Adele,Vance,Adele Vance,adelev@eza5woi.onmicrosoft.com,Finance Manager,Finance,E010,New York,2021-03-15,TRUE,08:00-12:00,No,Yes
+E002,E002,Jane,Smith,Jane Smith,jane.smith@example.com,Finance Analyst,Finance,adelev@eza5woi.onmicrosoft.com,Chicago,2025-07-20,TRUE,09:00-17:00,Yes,No
+E003,E003,Alan,Turing,Alan Turing,alan.turing@example.com,SAP Engineer,Finance,adelev@eza5woi.onmicrosoft.com,San Francisco,2025-07-21,TRUE,13:00-21:00,Yes,No
+E004,E004,Ada,Lovelace,Ada Lovelace,ada.lovelace@example.com,Data Scientist,IT,E008,San Francisco,2025-07-20,TRUE,22:00-06:00,Yes,No
+E005,E005,Mary,Johnson,Mary Johnson,mary.johnson@example.com,Sales Executive,Sales,E007,Boston,2020-09-30,TRUE,08:00-12:00,No,No
+E006,E006,Robert,Brown,Robert Brown,robert.brown@example.com,Marketing Specialist,Marketing,E006,Chicago,2025-07-20,TRUE,09:00-17:00,Yes,Yes
+E007,E007,Emily,Davis,Emily Davis,emily.davis@example.com,Sales Director,Sales,E002,Boston,2018-04-05,TRUE,09:00-17:00,No,No
+E008,E008,Michael,Lee,Michael Lee,michael.lee@example.com,IT Manager,IT,E009,San Francisco,2017-06-18,TRUE,09:00-17:00,Yes,No
+E009,E009,Susan,Clark,Susan Clark,susan.clark@example.com,Director of HR,Human Resources,,Chicago,2025-07-22,TRUE,09:00-17:00,No,No
+E010,E010,Thomas,Miller,Thomas Miller,thomas.miller@example.com,CFO,Finance,,New York,2014-11-02,TRUE,08:00-12:00,No,No
+E011,E011,Carlos,Gomez,Carlos Gomez,carlos.gomez@example.com,Network Engineer,IT,E008,Austin,2020-07-06,TRUE,09:00-17:00,No,No
+E012,E012,Nina,Patel,Nina Patel,nina.patel@example.com,Legal Counsel,Legal,E009,New York,2018-04-23,TRUE,08:00-12:00,No,No
+E013,E013,Leo,Kim,Leo Kim,leo.kim@example.com,Compliance Officer,Compliance,E009,Chicago,2019-08-26,TRUE,09:00-17:00,Yes,No
+E014,E014,Zara,Ahmed,Zara Ahmed,zara.ahmed@example.com,UX Designer,Design,E008,San Francisco,2017-07-16,TRUE,13:00-21:00,Yes,No
+E015,E015,Victor,Nguyen,Victor Nguyen,victor.nguyen@example.com,Technical Writer,Finance,E003,Austin,2025-07-28,TRUE,08:00-12:00,Yes,No
+E016,E016,Olivia,White,Olivia White,olivia.white@example.com,Recruiter,Human Resources,E002,Chicago,2014-09-03,TRUE,09:00-17:00,No,No
+E017,E017,Samuel,Green,Samuel Green,samuel.green@example.com,Business Analyst,Finance,E010,New York,2023-08-21,FALSE,09:00-17:00,No,No
+E018,E018,Linda,Evans,Linda Evans,linda.evans@example.com,Engineer,IT,E008,Remote,2025-07-23,TRUE,09:00-17:00,Yes,No
+E019,E019,Raj,Kumar,Raj Kumar,raj.kumar@example.com,Support Specialist,Support,E003,Dallas,2014-01-03,TRUE,22:00-06:00,No,Yes
+E020,E020,Tina,Wells,Tina Wells,tina.wells@example.com,Cloud Architect,IT,E008,Seattle,2025-07-23,TRUE,09:00-17:00,No,No
+E021,E021,Jagadish,Malah,Jagadish Malah,jagadish@eza5woi.onmicrosoft.com,Cloud Architect,IT,E008,Seattle,2025-07-22,TRUE,09:00-17:00,Yes,Yes
+E022,E022,Alaa,Mekkawy,Alaa Mekkawy,alaa.mekkawy@eza5woi.onmicrosoft.com,Sr Finance Analyst,Finance,E002,Orlando,2025-07-23,TRUE,09:00-17:00,Yes,No
+E023,E023,Asmaa,Fahmi,Asmaa Fahmi,asmaa.fahmi@eza5woi.onmicrosoft.com,Finance Analyst,Finance,E002,Tampa,2025-07-23,FALSE,09:00-17:00,No,No
+E024,E024,Zac,Volu,Zac Volu,zac.volu@eza5woi.onmicrosoft.com,Finance Analyst,Finance,E002,Tampa,2025-07-23,TRUE,09:00-17:00,No,No

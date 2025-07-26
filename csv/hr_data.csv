@@ -1,0 +1,21 @@
+EmployeeID,FirstName,LastName,PersonalEmail,JobTitle,Department,ManagerID,Location,StartDate,Status,Shift,Remote,LOA
+E001,John,Doe,john.doe@example.com,Finance Analyst,Finance,E010,New York,2021-03-15,Active,08:00-12:00,No,Yes
+E002,Jane,Smith,jane.smith@example.com,HR Manager,Human Resources,E009,Chicago,2019-07-01,Active,09:00-17:00,Yes,No
+E003,Alan,Turing,alan.turing@example.com,Software Engineer,IT,E008,San Francisco,2022-01-10,Active,13:00-21:00,Yes,No
+E004,Ada,Lovelace,ada.lovelace@example.com,Data Scientist,IT,E008,San Francisco,2023-02-20,Active,22:00-06:00,Yes,No
+E005,Mary,Johnson,mary.johnson@example.com,Sales Executive,Sales,E007,Boston,2020-09-30,Active,08:00-12:00,No,No
+E006,Robert,Brown,robert.brown@example.com,Marketing Specialist,Marketing,E006,Chicago,2021-12-12,Inactive,09:00-17:00,Yes,Yes
+E007,Emily,Davis,emily.davis@example.com,Sales Director,Sales,E002,Boston,2018-04-05,Active,09:00-17:00,No,No
+E008,Michael,Lee,michael.lee@example.com,IT Manager,IT,E009,San Francisco,2017-06-18,Active,09:00-17:00,Yes,No
+E009,Susan,Clark,susan.clark@example.com,Director of HR,Human Resources,,Chicago,2015-08-24,Active,09:00-17:00,No,No
+E010,Thomas,Miller,thomas.miller@example.com,CFO,Finance,,New York,2014-11-02,Active,08:00-12:00,No,No
+E011,Carlos,Gomez,carlos.gomez@example.com,Network Engineer,IT,E008,Austin,2020-07-06,Active,09:00-17:00,No,No
+E012,Nina,Patel,nina.patel@example.com,Legal Counsel,Legal,E009,New York,2018-04-23,Active,08:00-12:00,No,No
+E013,Leo,Kim,leo.kim@example.com,Compliance Officer,Compliance,E009,Chicago,2019-08-26,Active,09:00-17:00,Yes,No
+E014,Zara,Ahmed,zara.ahmed@example.com,UX Designer,Design,E008,San Francisco,2017-07-16,Active,13:00-21:00,Yes,No
+E015,Victor,Nguyen,victor.nguyen@example.com,Technical Writer,Engineering,E003,Austin,2022-06-28,Active,08:00-12:00,Yes,No
+E016,Olivia,White,olivia.white@example.com,Recruiter,Human Resources,E002,Chicago,2014-09-03,Active,09:00-17:00,No,No
+E017,Samuel,Green,samuel.green@example.com,Business Analyst,Finance,E010,New York,2023-08-21,Rescinded,09:00-17:00,No,No
+E018,Linda,Evans,linda.evans@example.com,Engineer,IT,E008,Remote,2018-09-23,Retired,09:00-17:00,Yes,No
+E019,Raj,Kumar,raj.kumar@example.com,Support Specialist,Support,E003,Dallas,2014-01-03,Active,22:00-06:00,No,Yes
+E020,Tina,Wells,tina.wells@example.com,Cloud Architect,IT,E008,Seattle,2018-02-10,Active,09:00-17:00,Yes,No
