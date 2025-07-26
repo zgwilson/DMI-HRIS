@@ -19,4 +19,5 @@ employee_number,Id,FirstName,LastName,Email,JobTitle,Department,ManagerID,Locati
 2018,DMI2018,Phyllis,Vance,zwilson+Phyllis.Vance@veza.com,Engineer,IT,E008,Remote,2018-09-23,Retired,09:00-17:00,Yes,No
 2019,DMI2019,Nelly,Bertram,zwilson+Nelly.Bertram@veza.com,Support Specialist,Support,E003,Dallas,2014-01-03,Inactive,22:00-06:00,No,Yes
 2020,DMI2020,Cousin,Mose,zwilson+Cousin.Mose@veza.com,Cloud Architect,IT,E008,Seattle,2025-07-24,Active,09:00-17:00,Yes,No
-2021,DMI2021,Karen,Filipelli,zwilson+Karen.Filipelli@veza.com,Sales Executive,Sales,E007,Seattle,2025-07-26,Inactive,09:00-17:00,Yes,No
+2021,DMI2021,Karen,Filipelli,zwilson+Karen.Filipelli@veza.com,Sales Executive,Sales,E007,Seattle,2025-07-26,Active,09:00-17:00,Yes,No
+2022,DMI2022,Roy,Anderson,zwilson+Roy.Anderson@veza.com,Security Engineer,IT,E008,Chicago,2025-07-24,Active,09:00-17:00,Yes,No
