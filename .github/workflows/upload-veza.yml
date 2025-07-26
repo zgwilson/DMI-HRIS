@@ -25,44 +25,33 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r scripts/requirements.txt
-
-      - name: Upload only changed CSVs to Veza
+      - name: Upload only changed CSVs to Veza         
+        env:
+          VEZA_URL: ${{ secrets.VEZA_URL }}
+          VEZA_API_KEY: ${{ secrets.VEZA_API_KEY }}
         run: |
           set -e
           echo "Detecting changed CSVs between commits:"
           echo "FROM: ${{ github.event.before }}"
           echo "TO:   ${{ github.sha }}"
-
           changed_files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^csv/.*\.csv$' || true)
-
           if [ -z "$changed_files" ]; then
             echo "✅ No CSV files changed. Skipping upload."
             exit 0
           fi
-
-          echo "Changed files:"
-          echo "$changed_files"
-
-          failed=0
-
-          for file in $changed_files; do
-            echo "Uploading $file..."
-            if python scripts/upload_to_veza.py "$file"; then
-              echo "✅ Successfully uploaded $file"
-            else
-              echo "❌ Failed to upload $file"
-              failed=1
-            fi
-          done
-
-          if [ $failed -ne 0 ]; then
-            echo "🚨 One or more files failed to upload"
-            exit 1
+           echo "Changed files:"
+           echo "$changed_files"
+           failed=0
+           for file in $changed_files; do
+             echo "Uploading $file..."
+             if python scripts/upload_to_veza.py "$file"; then
+               echo "✅ Successfully uploaded $file"
+             else
+               echo "❌ Failed to upload $file"
+               failed=1
+             fi
+           done
+           if [ $failed -ne 0 ]; then
+             echo "🚨 One or more files failed to upload"
+             exit 1
           fi
-      - name: Run Veza Integration
-        env:
-          VEZA_URL: ${{ secrets.VEZA_URL }}
-          VEZA_API_KEY: ${{ secrets.VEZA_API_KEY }}
-        run: |
-          echo "Using Veza URL from lab-se environment"
-          # Your commands using $VEZA_URL
