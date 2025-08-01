@@ -1,23 +1,6 @@
 employee_number,Id,FirstName,LastName,Email,JobTitle,Department,ManagerID,Location,StartDate,Status,Shift,Remote,LOA
-2001,DMI2001,Oscar,Martinez,zwilson+Oscar.Martinez@veza.com,Finance Analyst,Finance,E010,New York,2021-03-15,Active,08:00-12:00,No,Yes
-2002,DMI2002,Toby,Flanderson,zwilson+Toby.Flanderson@veza.com,HR Manager,Human Resources,E009,Chicago,2019-07-01,Active,09:00-17:00,Yes,No
-2003,DMI2003,Dwight,Schrute,zwilson+Dwight.Schrute@veza.com,Software Engineer,IT,E008,San Francisco,2022-01-10,Active,13:00-21:00,Yes,No
-2004,DMI2004,Gabe,Lewis,zwilson+Gabe.Lewis@veza.com,Data Scientist,IT,E008,San Francisco,2023-02-20,Active,22:00-06:00,Yes,No
-2005,DMI2005,Pam,Beasley,zwilson+Pam.Beasley@veza.com,Sales Executive,Sales,E007,Boston,2020-09-30,Active,08:00-12:00,No,No
-2006,DMI2006,Creed,Bratton,zwilson+Creed.Bratton@veza.com,Marketing Specialist,Marketing,E006,Chicago,2021-12-12,Inactive,09:00-17:00,Yes,Yes
-2007,DMI2007,Jim,Halpert,zwilson+Jim.Halpert@veza.com,Sales Director,Sales,E002,Boston,2018-04-05,Active,09:00-17:00,No,No
-2008,DMI2008,Darryl,Philbin,zwilson+Darryl.Philbin@veza.com,IT Manager,IT,E009,San Francisco,2017-06-18,Active,09:00-17:00,Yes,No
-2009,DMI2009,Jo,Bennet,zwilson+Jo.Bennet@veza.com,Director of HR,Human Resources,,Chicago,2015-08-24,Active,09:00-17:00,No,No
-2010,DMI2010,David,Wallace,zwilson+David.Wallace@veza.com,CFO,Finance,,New York,2014-11-02,Active,08:00-12:00,No,No
-2011,DMI2011,Andy,Bernard,zwilson+Andy.Bernard@veza.com,Network Engineer,IT,E008,Austin,2020-07-06,Active,09:00-17:00,No,No
-2012,DMI2012,Michael,Scott,zwilson+Michael.Scott@veza.com,Legal Counsel,Legal,E009,New York,2018-04-23,Active,08:00-12:00,No,No
-2013,DMI2013,Ryan,Howard,zwilson+Ryan.Howard@veza.com,Compliance Officer,Compliance,E009,Chicago,2019-08-26,Active,09:00-17:00,Yes,No
-2014,DMI2014,Todd,Packard,zwilson+Todd.Packard@veza.com,UX Designer,Design,E008,San Francisco,2017-07-16,Active,13:00-21:00,Yes,No
-2015,DMI2015,Stanley,Hudson,zwilson+Stanley.Hudson@veza.com,Technical Writer,Engineering,E003,Austin,2022-06-28,Active,08:00-12:00,Yes,No
-2016,DMI2016,Kelly,Kapoor,zwilson+Kelly.Kapoor@veza.com,Recruiter,Human Resources,E002,Chicago,2014-09-03,Active,09:00-17:00,No,No
-2017,DMI2017,Meredith,Palmer,zwilson+Meredith.Palmer@veza.com,Business Analyst,Finance,E010,New York,2023-08-21,Rescinded,09:00-17:00,No,No
-2018,DMI2018,Phyllis,Vance,zwilson+Phyllis.Vance@veza.com,Engineer,IT,E008,Remote,2018-09-23,Retired,09:00-17:00,Yes,No
-2019,DMI2019,Nelly,Bertram,zwilson+Nelly.Bertram@veza.com,Support Specialist,Support,E003,Dallas,2014-01-03,Inactive,22:00-06:00,No,Yes
-2020,DMI2020,Cousin,Mose,zwilson+Cousin.Mose@veza.com,Cloud Architect,IT,E008,Seattle,2025-07-24,Active,09:00-17:00,Yes,No
-2021,DMI2021,Karen,Filipelli,zwilson+Karen.Filipelli@veza.com,Sales Executive,Sales,E007,Seattle,2025-07-26,Active,09:00-17:00,Yes,No
-2022,DMI2022,Roy,Anderson,zwilson+Roy.Anderson@veza.com,Security Engineer,IT,E008,Chicago,2025-07-24,Active,09:00-17:00,Yes,No
+2002,DMI2002,Toby,Flanderson,zwilson+Toby.Flanderson@veza.com,HR Manager,Human Resources,E009,Scanton,2019-07-01,Active,09:00-17:00,Yes,No
+2003,DMI2003,Dwight,Schrute,zwilson+Dwight.Schrute@veza.com,Sales Rep,Sales,E002,Scranton,2022-01-10,Active,13:00-21:00,Yes,No
+2007,DMI2007,Jim,Halpert,zwilson+Jim.Halpert@veza.com,Sales Director,Sales,E002,Scranton,2018-04-05,Active,09:00-17:00,No,No
+2008,DMI2008,Darryl,Philbin,zwilson+Darryl.Philbin@veza.com,Warehouse Foreman,Warehouse,E009,Scranton,2017-06-18,Active,09:00-17:00,Yes,No
+2012,DMI2012,Michael,Scott,zwilson+Michael.Scott@veza.com,Regional Manager,Management,E009,Scranton,2018-04-23,Active,08:00-12:00,No,No
