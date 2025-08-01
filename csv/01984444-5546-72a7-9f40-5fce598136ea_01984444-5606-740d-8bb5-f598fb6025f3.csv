@@ -1,6 +1,7 @@
-employee_number,Id,FirstName,LastName,Email,JobTitle,Department,ManagerID,Location,StartDate,Status,Shift,Remote,LOA
-2002,DMI2002,Toby,Flanderson,zwilson+Toby.Flanderson@veza.com,HR Manager,Human Resources,E009,Scanton,2019-07-01,Active,09:00-17:00,Yes,No
-2003,DMI2003,Dwight,Schrute,zwilson+Dwight.Schrute@veza.com,Sales Rep,Sales,E002,Scranton,2022-01-10,Active,13:00-21:00,Yes,No
-2007,DMI2007,Jim,Halpert,zwilson+Jim.Halpert@veza.com,Sales Director,Sales,E002,Scranton,2018-04-05,Active,09:00-17:00,No,No
-2008,DMI2008,Darryl,Philbin,zwilson+Darryl.Philbin@veza.com,Warehouse Foreman,Warehouse,E009,Scranton,2017-06-18,Active,09:00-17:00,Yes,No
-2012,DMI2012,Michael,Scott,zwilson+Michael.Scott@veza.com,Regional Manager,Management,E009,Scranton,2018-04-23,Active,08:00-12:00,No,No
+employee_number,Id,FirstName,LastName,Email,SecondEmail,JobTitle,Department,ManagerID,Location,StartDate,Status,Shift,Remote,LOA
+2002,DMI2002,Toby,Flanderson,zwilson+Toby.Flanderson@veza.com,toby.flenderson@dundermifflin.com,HR Manager,Human Resources,E009,Scanton,2019-07-01,Active,09:00-17:00,Yes,No
+2003,DMI2003,Dwight,Schrute,zwilson+Dwight.Schrute@veza.com,dwight.schrute@dundermifflin.com,Sales Rep,Sales,E002,Scranton,2022-01-10,Active,13:00-21:00,Yes,No
+2007,DMI2007,Jim,Halpert,zwilson+Jim.Halpert@veza.com,jim.halpert@dundermifflin.com,Sales Director,Sales,E002,Scranton,2018-04-05,Active,09:00-17:00,No,No
+2008,DMI2008,Darryl,Philbin,zwilson+Darryl.Philbin@veza.com,darryl.philbin@dundermifflin.com,Warehouse Foreman,Warehouse,E009,Scranton,2017-06-18,Active,09:00-17:00,Yes,No
+2012,DMI2012,Michael,Scott,zwilson+Michael.Scott@veza.com,michael.scott@dundermifflin.com,Regional Manager,Management,E009,Scranton,2018-04-23,Active,08:00-12:00,No,No
+
